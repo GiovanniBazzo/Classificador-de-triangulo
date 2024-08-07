@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(0, 0, 0, 0.795);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 17px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+}
+
+h3 {
+    color: rgba(255, 238, 0, 0.685);
+}
+
+.lados {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}
+
+.paragrafo {
+    color: white;
+}
+
+.lado {
+    border: 3px solid;
+    border-radius: 8px;
+    height: 23px;
+}
+
+.botao {
+    border: 2px solid;
+    width: 70px;
+    height: 40px;
+    margin: auto;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.resultado {
+    color: white;
+    font-size: 20px;
+}

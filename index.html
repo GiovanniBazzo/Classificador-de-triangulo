@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de triângulos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Classifique seu triângulo</h1>
+        <h3>Indique o valor em (cm), de cada lado de um triângulo para Classifica-lo</h3>
+    </header>
+    <div class="lados">
+        <p class="paragrafo">Lado 1</p>
+        <input type="number" class="lado" id="lado1">
+        <p class="paragrafo">Lado 2</p>
+        <input type="number" class="lado" id="lado2">
+        <p class="paragrafo">Lado 3</p>
+        <input type="number" class="lado" id="lado3">
+    </div>
+    <button class="botao" onclick="diferenteDeNulo()">Verificar</button>
+    <div class="resultado" aria-label="resultado" tabindex="0" id="resultado">
+        Por favor, digite um valor
+    </div>
+    <script src="JavaScripts.js"></script>
+</body>
+</html>
